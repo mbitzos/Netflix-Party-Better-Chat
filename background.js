@@ -1,5 +1,5 @@
 // on first install add these hooks
-chrome.runtime.onInstalled.addListener(function () {
+chrome.runtime.onStartup.addListener(function () {
   console.log("Netflix Party Better Chat installed")
   // the URL to watch for (same as manifest permissions)
   const URL = 'https://www.netflix.com/watch/'
