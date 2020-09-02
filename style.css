@@ -1,0 +1,72 @@
+.collapse-btn-container {
+  height: 100%;
+  width: 20px;
+  top:0;
+  position: absolute;
+  margin-left: -20px;
+}
+.collapse-btn {
+  background-color: rgb(30,30,30);
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s all, 0.5s opacity;
+  width:100%;
+  position: relative;
+  float:right;
+  opacity:1;
+  font-size:30px;
+  color: rgb(170,170,170);
+}
+
+
+/* Fade this away when the player is away */
+.no-chat .collapse-btn-container.active .collapse-btn{
+  opacity: 1;
+}
+.no-chat .collapse-btn-container.inactive .collapse-btn{
+  opacity: 0;
+}
+.no-chat .collapse-btn:hover {
+  background-color: rgb(40,40,40);
+}
+.has-chat .collapse-btn:hover{
+  background-color:rgb(40,40,40);
+}
+
+.collapse-btn:hover {
+  color: white;
+}
+
+
+  
+/* Existing Netflix Party Elements */
+#chat-wrapper {
+  transition: 0.5s all !important;
+}
+
+.sizing-wrapper {
+  transition: 0.5s all !important;
+}
+
+#chat-wrapper.no-chat {
+  width:0 !important;
+}
+#chat-wrapper.has-chat {
+  width:271px !important;
+}
+
+.sizing-wrapper.no-chat {
+  right:0 !important;
+}
+/* with-chat is netflix class, will work now if disconnected or hidden */
+.sizing-wrapper.has-chat.with-chat {
+  right:271px !important;
+}
+
+#chat-wrapper #chat-container {
+  width: 235px !important;
+}

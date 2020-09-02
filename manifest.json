@@ -1,0 +1,22 @@
+{
+  "name": "Netflix Party Better Chat",
+  "version": "1.0",
+  "description": "Makes Netflix Party Chat Sidebar Better",
+  "icons": {
+    "16": "images/netflix_16.png",
+    "48": "images/netflix_48.png",
+    "128": "images/netflix_128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "https://www.netflix.com/watch/*"
+  ]
+}
