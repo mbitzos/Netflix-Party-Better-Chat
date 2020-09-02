@@ -10,4 +10,4 @@ When hidden, it will fade away with the rest of the Netflix UI so that its only 
 
 **NOTE: Not affiliated with Netflix/Netflix Party, not an official Extension**
 
-_This isn't on the Google Extension store because I did not want to pay 25$ for this_
+_This isn't on the Google Extension store because I did not want to pay 25$._
